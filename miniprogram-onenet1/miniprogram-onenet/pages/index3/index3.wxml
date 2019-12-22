@@ -1,0 +1,37 @@
+<!--pages/index3/index3.wxml-->
+<view>植物名称</view>
+<input class="input" type="test"> 
+</input>
+
+<view>生长习性</view>
+<textarea></textarea>
+
+<view>生长日志</view>
+
+<view class="weui-cell">
+  <view class="weui-cell__bd">
+    <view class="weui-uploader">
+      <view class="weui-uploader__hd">
+        <view class="weui-uploader__title">点击上传图片</view>
+        <view class="weui-uploader__info">{{pics.length}}/9</view>
+      </view>
+      <view class="weui-uploader__bd">
+        <view class="weui-uploader__files">
+          <block wx:for="{{pics}}" wx:for-item="image">
+            <view class="weui-uploader__file">
+              <image class="weui-uploader__img" src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
+            </view>
+          </block>
+        </view>
+        
+        <view class="weui-uploader__input-box {{isShow?'true':'hideTrue'}}">
+          <view class="weui-uploader__input" bindtap="chooseImage"></view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+
+

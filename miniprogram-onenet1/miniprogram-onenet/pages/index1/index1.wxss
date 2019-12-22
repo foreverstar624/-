@@ -1,0 +1,22 @@
+/* pages/index1/index1.wxss */
+.box1{
+  width: 200rpx;
+  height: 50rpx;
+  font-size: 40rpx;
+  margin-top: 100rpx;
+}
+.box2{
+  width: 240rpx;
+  height: 50rpx;
+  font-size: 40rpx;
+  margin-top: 100rpx;
+}
+.box3{
+  width: 200rpx;
+  height: 50rpx;
+  font-size: 40rpx;
+  margin-top: 100rpx;
+}
+.view{
+  margin-top: 20rpx;
+}

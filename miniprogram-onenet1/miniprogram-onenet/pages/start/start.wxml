@@ -1,0 +1,6 @@
+<!--start.wxml-->
+<view class="intro">
+  植物近24h温度&光照&湿度
+</view>
+
+<button type="primary" size="default" class="btn1" bindtap="navigate">查看设备回传数据</button>
